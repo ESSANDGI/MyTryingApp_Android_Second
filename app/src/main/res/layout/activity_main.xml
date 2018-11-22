@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/view_1"
         android:layout_width="329dp"
-        android:layout_height="30dp"
+        android:layout_height="34dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
         android:text="Status dell'alunno"
@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
+        android:onClick="calculate"
         android:text="Calcola Status"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_3" />
