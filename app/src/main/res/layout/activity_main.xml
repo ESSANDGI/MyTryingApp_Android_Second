@@ -20,36 +20,39 @@
     <EditText
         android:id="@+id/txt_1"
         android:layout_width="299dp"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Programmazione"
         android:inputType="number"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_1" />
 
     <EditText
         android:id="@+id/txt_2"
-        android:layout_width="297dp"
-        android:layout_height="wrap_content"
+        android:layout_width="299dp"
+        android:layout_height="45dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Matematica del Continuo"
         android:inputType="number"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_1" />
 
     <EditText
         android:id="@+id/txt_3"
-        android:layout_width="296dp"
-        android:layout_height="wrap_content"
+        android:layout_width="299dp"
+        android:layout_height="45dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Ingegneria del software"
         android:inputType="number"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_2" />
 
@@ -61,6 +64,7 @@
         android:layout_marginTop="28dp"
         android:onClick="calculate"
         android:text="Calcola Status"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_3" />
 </android.support.constraint.ConstraintLayout>
